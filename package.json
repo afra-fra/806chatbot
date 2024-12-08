@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./style.css -o ./public/output.css",
+    "build:css": "tailwindcss -i ./public/style.css -o ./public/output.css",
     "build": "npm run build:css",
     "start": "node index.js"
 }
