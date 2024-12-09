@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const userInput = document.getElementById('user-input');
     const sendButton = document.getElementById('send-button');
 
-    // Append message to chat
+
 
     function addRatingUI(bubble) {
         const ratingDiv = document.createElement('div');
@@ -57,19 +57,19 @@ document.addEventListener('DOMContentLoaded', () => {
             titleElement.href = link;
             titleElement.target = "_blank";
             titleElement.textContent = content;
-            titleElement.className = "text-blue-600 font-bold underline block mb-2"; // Styling for title
+            titleElement.className = "text-blue-600 font-bold underline block mb-2"; 
             bubble.appendChild(titleElement);
 
             // Add description
             const descriptionElement = document.createElement("p");
             descriptionElement.textContent = description;
-            descriptionElement.className = "text-sm text-gray-700 mb-2"; // Styling for description
+            descriptionElement.className = "text-sm text-gray-700 mb-2"; 
             bubble.appendChild(descriptionElement);
 
             // Add time
             const timeElement = document.createElement("p");
             timeElement.textContent = `Duration: ${time}`;
-            timeElement.className = "text-sm text-gray-600 font-semibold"; // Styling for time
+            timeElement.className = "text-sm text-gray-600 font-semibold"; 
             bubble.appendChild(timeElement);
 
             addRatingUI(bubble);
@@ -87,12 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-
-
-
-    
-    // Handle feedback submission
- 
 
     // Handle predefined options
     const predefinedOptions = document.querySelectorAll('.option-button');

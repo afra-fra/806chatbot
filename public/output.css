@@ -743,8 +743,6 @@ video {
   transition-duration: 150ms;
 }
 
-/* Chat container styling */
-
 .chat-container {
   display: flex;
   height: 83.333333%;
@@ -762,13 +760,9 @@ video {
   position: relative;
 }
 
-/* White background */
-
 body {
   background-color: #ffffff;
 }
-
-/* Title Section */
 
 .title-section {
   border-top-left-radius: 0.75rem;
@@ -788,8 +782,6 @@ body {
   box-shadow: none;
 }
 
-/* Chat window */
-
 #chat-window {
   flex: 1 1 0%;
 }
@@ -808,8 +800,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Bot messages */
-
 .bot-message {
   max-width: 28rem;
   border-radius: 0.75rem;
@@ -822,67 +812,50 @@ body {
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   font-family: "Inter", "Arial", sans-serif;
-  /* Readable font */
   font-size: 1rem;
-  /* Text size */
   font-weight: 400;
-  /* Normal weight */
   -webkit-font-smoothing: antialiased;
-  /* Enable smooth edges */
   -moz-osx-font-smoothing: grayscale;
-  /* Font smoothing for macOS */
 }
-
-/* Cat Icon Styling */
 
 .bot-icon {
   flex-shrink: 0;
-  /* Prevent the icon from resizing */
 }
 
 .bot-icon i {
   color: #14b8a6;
-  /* Teal color for the cat icon */
   font-size: 2rem;
-  /* Size of the icon */
 }
 
 .bot-message a {
   color: #2563eb;
-  /* Blue color for links */
   font-weight: bold;
   text-decoration: underline;
 }
 
 .bot-message a:hover {
   color: #1e40af;
-  /* Darker blue on hover */
   text-decoration: none;
 }
 
 .bot-message p {
   margin: 0.25rem 0;
-  /* Spacing between paragraphs */
 }
 
 .bot-message .text-sm {
   font-size: 0.875rem;
-  /* Smaller font for description and time */
 }
 
 .bot-message .text-gray-700 {
   color: #4b5563;
-  /* Gray color for description */
 }
 
 .bot-message .text-gray-600 {
   color: #6b7280;
-  /* Slightly lighter gray for time */
 }
 
 .bot-message .font-semibold {
   font-weight: 600;
-  /* Bold font for emphasis */
 }
 
 /* Options Section */
@@ -894,9 +867,7 @@ body {
   gap: 1rem;
   padding: 0.5rem 0;
   border: none;
-  /* Remove any borders */
   box-shadow: none;
-  /* Remove any shadows */
 }
 
 /* Option Buttons */
@@ -915,15 +886,12 @@ body {
 
 .option-button:hover {
   background-color: #805ad5;
-  /* Lighter purple */
   transform: scale(1.05);
-  /* Slight zoom */
 }
 
 .option-button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.5);
-  /* Purple focus ring */
 }
 
 /* User messages */
@@ -1042,7 +1010,6 @@ body {
 
 .bot-message .topic-button {
   font-size: 0.875rem;
-  /* Smaller font for description and time */
 }
 
 .topic-button {
@@ -1102,9 +1069,7 @@ body {
 
 .bot-message .tutorial-card p {
   font-size: 0.875rem;
-  /* Smaller font for description and time */
   color: #4b5563;
-  /* Gray color for description */
 }
 
 /* Thinking message styling */
@@ -1157,9 +1122,7 @@ body {
 
 .bot-message .rating-text {
   font-size: 0.875rem;
-  /* Smaller font for description and time */
   color: #6b7280;
-  /* Slightly lighter gray for time */
 }
 
 /* Rating buttons common styles */
@@ -1203,7 +1166,6 @@ body {
 
 .bot-message .feedback-message {
   font-size: 0.875rem;
-  /* Smaller font for description and time */
 }
 
 .feedback-message {
